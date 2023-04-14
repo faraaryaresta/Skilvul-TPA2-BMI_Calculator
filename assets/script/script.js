@@ -21,14 +21,14 @@ function calculateBMI() {
         document.getElementById('weight_error').innerHTML = '';
     } else {
         if(height === ''){
-            document.getElementById('height_error').innerHTML = '<i class="fa-regular fa-circle-exclamation"></i> Please provide a valid height';
+            document.getElementById('height_error').innerHTML = '<i class="fa-solid fa-circle-exclamation"></i> Please provide a valid height';
             document.getElementById('result').innerHTML = '';
         }else if (height !== ''){
             document.getElementById('height_error').innerHTML = '';
         }
     
         if(weight === ''){
-            document.getElementById('weight_error').innerHTML = '<i class="fa-regular fa-circle-exclamation"></i> Please provide a valid weight';
+            document.getElementById('weight_error').innerHTML = '<i class="fa-solid fa-circle-exclamation"></i> Please provide a valid weight';
             document.getElementById('result').innerHTML = '';
         }else if (weight !== '' ){
             document.getElementById('weight_error').innerHTML = '';
